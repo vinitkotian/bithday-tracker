@@ -1,0 +1,8 @@
+
+##Diectories to ignore
+dist
+node_modules
+
+
+##Files to ignore
+index.html
