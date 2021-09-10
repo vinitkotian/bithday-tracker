@@ -42,7 +42,7 @@ export function MainContainer() {
     <main className="main">
       <Paper className={classes.backdrop} elevation={5}>
         <Typography variant="h5" classes={{ root: classes.centerTitleText }}>
-          Birthdays Today
+          {people.length} Birthdays Today
         </Typography>
         <BirthDayList people={people}></BirthDayList>
         <Button
